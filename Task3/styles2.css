@@ -1,0 +1,58 @@
+/* Root properties */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif", sans-serif;
+}
+
+/* Body Styles */
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to top, #f5733f, #80d0c7);
+}
+
+/* Input Styles */
+.temperature-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.temperature-input input {
+  flex: 5;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+  padding: 0 10px;
+}
+
+.temperature-input .unit {
+  flex: 1;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background: #0093e9;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Button Styles */
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

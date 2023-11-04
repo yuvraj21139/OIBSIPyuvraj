@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This web application provides a simple and intuitive interface for converting temperatures between Celsius and Fahrenheit. Whether you need quick temperature conversions for cooking, weather analysis, or any other purpose, this tool has got you covered."
+    />
+
+    <meta
+      name="keywords"
+      content="Temperature Converter,celsius to fahrenheit,Online Temperature Converter,fahrenheit to celsius, Free Temperature Conversion,how to fahrenheit to celsius, how to convert celsius to fahrenheit"
+    />
+    <link rel="stylesheet" href="styles2.css" />
+    <title>Temperature Convertor</title>
+  </head>
+  <body>
+    <div class="containers">
+      <div class="temperature-input" id="celsius" title="Convert Celsius Here">
+        <input type="number" id="celsiusInput" placeholder="Celsius" />
+        <span class="unit">°C</span>
+      </div>
+      <div
+        class="temperature-input"
+        id="fahrenheit"
+        title="Convert Fahrenheit Here"
+      >
+        <input type="number" id="fahrenheitInput" placeholder="Fahrenheit" />
+        <span class="unit">°F</span>
+      </div>
+      <div class="temperature-input" id="kelvin" title="Convert Kelvin Here">
+        <input type="number" id="kelvinInput" placeholder="Kelvin" />
+        <span class="unit">K</span>
+      </div>
+
+      <div class="button">
+        <button class="Btn" id="clearButton">
+          <span>Clear All</span>
+          <i class="fa-solid fa-broom"></i>
+        </button>
+
+        <!-- <button class="button"></button> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
